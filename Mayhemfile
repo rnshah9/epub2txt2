@@ -1,0 +1,9 @@
+project: rnshah9/epub2txt2
+target: epub2txt2
+image: ghcr.io/rnshah9/playground:epub2txt2
+tests:
+  - file://test.epub
+
+cmds:
+  - cmd: /repo/epub2txt @@
+ #    filepath: /test.c
